@@ -1,0 +1,16 @@
+.DS_Store
+.ruff_cache/
+.omx/
+.openchrome/
+__pycache__/
+*.pyc
+
+# Generated outputs and caches
+outputs/
+pipeline/data/processed/
+pipeline/data/raw/
+docs/papers/
+
+# Keep only curated deliverables in git
+!deliverables/
+!deliverables/**
